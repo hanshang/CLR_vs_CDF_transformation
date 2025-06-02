@@ -79,6 +79,44 @@ for(iwj in 1:n_country)
     print(iwj); rm(iwj)
 }
 
+# graphical plots
+
+# female
+
+savefig("Fig_5a", width = 12, height = 10, toplines = 0.5)
+plot(fts(0:110, t(AUS_female_pop)), xlab = "Age", ylab = "Forecasted life-table death counts", 
+     main = "Australia (Female)", col = "gray")
+lines(fts(0:110, fore_out_dx_F[,,1]))
+dev.off()
+
+# male
+
+savefig("Fig_5b", width = 12, height = 10, toplines = 0.5)
+plot(fts(0:110, t(AUS_male_pop)), xlab = "Age", ylab = "", main = "Australia (Male)", col = "gray")
+lines(fts(0:110, fore_out_dx_M[,,1]))
+dev.off()
+
+# Work out e0
+
+fore_out_ex_F = fore_out_ex_M = array(NA, dim = c(111, 50, n_country), dimnames = list(0:110, 1:50, country))
+for(iwj in 1:n_country)
+{
+    for(iw in 1:50)
+    {
+        fore_out_ex_F[,iw,iwj] = LifeTable(x = 0:110, dx = fore_out_dx_F[,iw,iwj])$lt$ex
+        fore_out_ex_M[,iw,iwj] = LifeTable(x = 0:110, dx = fore_out_dx_M[,iw,iwj])$lt$ex
+    }
+}
+
+years_out = 2022:2071
+years_out_index = seq(1, 50, by = 7)
+years_out_compar = years_out[years_out_index]
+
+fore_out_ex_F[1, years_out_index,]
+fore_out_ex_M[1, years_out_index,]
+
+
+
 # Work out lx
 
 fore_out_lx_F = fore_out_lx_M = array(NA, dim = c(111, 50, n_country), dimnames = list(0:110, 1:50, country))
