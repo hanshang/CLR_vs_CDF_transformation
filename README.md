@@ -1,5 +1,5 @@
-# CLR_vs_CDF_transformation_multi_countries
-Multi-country comparison between the centered log-ratio and cumulative distribution function transformations
+# CLR vs CDF transformations for modeling dx: Multi-country comparison
+Multi-country comparison of life-table death counts (dx) between the centered log-ratio and cumulative distribution function transformations
 
 1. load_package.R: load R packages
 2. transformation.R: CLR and CDF transformations
