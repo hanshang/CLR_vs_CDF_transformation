@@ -1,6 +1,8 @@
 # Forecasting age distribution of deaths across countries: Life expectancy and annuity valuation
 Multi-country comparison of life-table death counts (dx) between the centered log-ratio and cumulative distribution function transformations
 
+Abstract. For modeling and forecasting the age distribution of death counts, we revisit two \textit{one-to-one} mapping transformations, namely the cumulative distribution function and the centered log-ratio in compositional data analysis. Between the two transformations, the cumulative distribution function provides a scale-free way to visualize the gender gap and cross-country heterogeneity in the probability of dying between sexes and countries. Drawing on age-specific period life-table death counts from 24 countries in the \cite{HMD25}, we assess and compare the point and interval forecast accuracy of the two transformations, using the same forecasting method. Enhancing the forecast accuracy of period life-table death counts holds significant value for demographers, who rely on such forecasts to estimate survival probabilities and life expectancy, and for actuaries, who use them to price annuities across various entry ages and maturities.
+
 1. load_package.R: load R packages
 2. transformation.R: CLR and CDF transformations
 3. data.zip: unzip the data folder containing the age distribution of death counts from the 24 countries in the Human Mortality Database
