@@ -14,3 +14,14 @@ Abstract. For modeling and forecasting the age distribution of death counts, we 
 9. annuity_calculation_interval_PI_80.R: based on the 50-years-ahead out-of-sample interval forecasts at the 80% nominal coverage probability, we determine the lower and upper bounds of the annuity prices for various entry ages and maturities.
 10. annuity_calculation_interval_PI_95.R: based on the 50-years-ahead out-of-sample interval forecasts at the 95% nominal coverage probability, we determine the lower and upper bounds of the annuity prices for various entry ages and maturities.
 11. save_function.R: R function for saving figures
+
+## Contact
+arXiv link: [https://arxiv.org/abs/2507.04303](https://arxiv.org/abs/2507.04303)
+
+Han Lin Shang - hanlin.shang@mq.edu.au
+
+Steven Haberman - s.haberman@citystgeorges.ac.uk
+
+<br />
+    <a href="https://github.com/hanshang/CLR_vs_CDF_transformation"><strong>Explore R code »</strong></a>
+<br />
