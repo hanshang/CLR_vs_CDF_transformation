@@ -9,6 +9,8 @@ For modeling and forecasting the age distribution of death counts, we revisit tw
 <br />
 </p>
 
+### Main Results
+The R script files in the `R Code` folder should be used in the following order:
 1. load_package.R: load R packages
 2. transformation.R: CLR and CDF transformations
 3. data.zip: unzip the data folder containing the age distribution of death counts from the 24 countries in the Human Mortality Database
