@@ -1,4 +1,4 @@
-# CLR and CDF transformations for modeling and forecasting dx: Multi-country comparison
+# CLR and CDF transformations for modeling and forecasting dx\n Multi-country comparison
 Multi-country comparison of life-table death counts (dx) between the centered log-ratio and cumulative distribution function transformations
 
 1. load_package.R: load R packages
