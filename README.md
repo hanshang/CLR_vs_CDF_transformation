@@ -1,4 +1,4 @@
-# Centered log ratio (CLR) and cumulative distribution function (CDF) transformations for modeling and forecasting dx: Multi-country comparison
+# Centered log ratio (CLR) and cumulative distribution function (CDF) transformations for modeling and forecasting dx
 Multi-country comparison of life-table death counts (dx) between the centered log-ratio and cumulative distribution function transformations
 
 1. load_package.R: load R packages
