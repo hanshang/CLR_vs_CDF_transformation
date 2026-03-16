@@ -1,4 +1,4 @@
-# Centered log ratio (CLR) and cumulative distribution function (CDF) transformations for modeling and forecasting dx
+# Forecasting age distribution of deaths across countries: Life expectancy and annuity valuation
 Multi-country comparison of life-table death counts (dx) between the centered log-ratio and cumulative distribution function transformations
 
 1. load_package.R: load R packages
