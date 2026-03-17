@@ -12,8 +12,6 @@
   Life expectancy and annuity valuation</h3>
 
 </div>
-
-# Forecasting age distribution of deaths across countries: Life expectancy and annuity valuation
 Multi-country comparison of life-table death counts (dx) between the centered log-ratio and cumulative distribution function transformations
 
 <!-- ABOUT THE PROJECT -->
