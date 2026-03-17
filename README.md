@@ -7,7 +7,9 @@
     <img src="HMD.png" alt="Logo" width="200" height="200">
   </a>
 
-<h3 align="center">Forecasting age distribution of deaths across countries: Life expectancy and annuity valuation</h3>
+<h3 align="center">Forecasting age distribution of deaths across countries: 
+  <br />
+  Life expectancy and annuity valuation</h3>
 
 </div>
 
