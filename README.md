@@ -3,7 +3,7 @@
 <div align="center">
   <a href="https://github.com/hanshang/CLR_vs_CDF_transformation">
     <img src="MQ.png" alt="Logo" width="400" height="400">
-    <img src="City.png" alt="Logo" width="400" height="400">
+    <img src="City.png" alt="Logo" width="400" height="200">
   </a>
 
 <h3 align="center">Forecasting age distribution of deaths across countries: Life expectancy and annuity valuation</h3>
